@@ -236,7 +236,16 @@ public class omayo_project {
 		Thread.sleep(2000);
 		driver.findElement(By.xpath("//*[@id=\"HTML31\"]/div[1]/form/button")).click();
 		
-		//CHECK FROM HERE
+		//Iframe
+//		driver.switchTo().frame(driver.findElement(By.xpath("/html/body/div[4]/div[2]/div[2]/div[2]/div[2]/div[2]/div[2]/div/div[4]/div[1]/div/div/div[6]/div[1]/iframe[1]")));
+//		Actions a1= new Actions(driver);
+//			
+//		WebElement src=driver.findElement(By.id("iframe1"));  //src - source
+//		WebElement des=driver.findElement(By.id("iframe2"));  //dec - destination
+//		Thread.sleep(5000);
+//		
+//		a.dragAndDrop(src, des).perform();
+//		Thread.sleep(5000);
 		
 		//Simple Login Page
 		//Username
